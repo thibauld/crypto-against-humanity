@@ -143,6 +143,7 @@ class Home extends Component {
           </div>
 
           <div className="column white-cards-in-play">
+            <p>We are experiencing synching issues on ropsten, we're working hard on a Rinkey backup...</p>
             <WhiteCardsInPlayView whiteCards={this.state.whiteCards} loading={this.state.loadingWhiteCards} />
           </div>
 
